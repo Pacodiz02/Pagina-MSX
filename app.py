@@ -55,5 +55,7 @@ def juegos_detalles(identificador):
         
     return abort(404)
 
-port=os.environ["PORT"]
-app.run('0.0.0.0', int(port), debug=False)
+#port=os.environ["PORT"]
+#app.run('0.0.0.0', int(port), debug=False)
+
+app.run('0.0.0.0', 5000, debug=False)
